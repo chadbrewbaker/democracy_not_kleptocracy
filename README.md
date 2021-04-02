@@ -6,3 +6,7 @@ Scripts to audit Iowa 990 filings hid by Kim Reynolds, Tom Miller, and Rob Sand 
 [Historical writeup of Iowa corruption](https://chadbrewbaker.substack.com/p/good-trouble-in-little-chi-town)
 
 [AWS Open IRS 990 filings](https://registry.opendata.aws/irs990/)
+
+```bash
+ aws s3 ls s3://irs-form-990/index --human-readable --summarize
+ ```
